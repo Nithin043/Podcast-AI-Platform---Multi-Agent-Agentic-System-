@@ -1,0 +1,44 @@
+# ── Auth ──────────────────────────────────────────────
+bcrypt>=4.0.1
+PyJWT>=2.8.0
+pydantic[email]>=2.0.0
+cryptography>=41.0.0
+
+# ── Database ──────────────────────────────────────────
+sqlalchemy>=2.0.0
+
+# ── RPA Bot ───────────────────────────────────────────
+youtube-transcript-api==0.6.2
+yt-dlp>=2024.1.1
+pandas>=2.0.0
+
+# ── Environment ───────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── AI Agents ─────────────────────────────────────────
+groq>=0.9.0
+ollama>=0.1.8
+duckduckgo-search>=5.0.0
+
+# ── RAG ───────────────────────────────────────────────
+chromadb>=0.4.24
+
+# ── Scheduler ─────────────────────────────────────────
+APScheduler>=3.10.4
+feedparser>=6.0.10
+
+# ── Publishers (kept for reference, not used in UI) ───
+tweepy>=4.14.0
+requests>=2.31.0
+
+# ── Export Hub ────────────────────────────────────────
+python-docx>=1.1.0
+fpdf2>=2.7.9
+
+# ── Analytics & Visualisation ─────────────────────────
+plotly>=5.18.0
+wordcloud>=1.9.3
+matplotlib>=3.8.0
+
+# ── Frontend ──────────────────────────────────────────
+streamlit>=1.32.0
